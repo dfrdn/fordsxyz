@@ -3,12 +3,11 @@
     <article-preview
       v-for="article in articles"
       :key="article.slug"
-      :title="article.title"
+      :title="`${article.title}`"
       :date-created="article.createdAt"
       :description="article.description"
       :to="`/law/${article.slug}`"
-      >{{ article }}</article-preview
-    >
+    />
   </div>
 </template>
 

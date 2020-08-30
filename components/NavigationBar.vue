@@ -1,6 +1,8 @@
 <template>
   <nav class="bg-gray-900">
-    <div class="flex items-center justify-between flex-wrap lg:container py-6">
+    <div
+      class="flex items-center justify-between flex-wrap lg:container py-6 px-4 lg:px-0"
+    >
       <nuxt-link to="/" class="flex items-center flex-shrink-0 text-white mr-6">
         <!-- [ }. -->
         <!--logo goes here-->
@@ -20,13 +22,13 @@
           </svg>
         </button>
       </div>
-      <div class="w-full block flex-grow lg:flex lg:w-auto">
-        <div class="text-sm lg:ml-auto">
+      <div class="w-full hidden flex-grow lg:flex lg:w-auto">
+        <div class="text-sm lg:ml-auto lg:space-x-4">
           <nuxt-link
             v-for="link in links"
             :key="link.label"
             :to="link.link"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white ml-4"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
           >
             {{ link.label }}
           </nuxt-link>

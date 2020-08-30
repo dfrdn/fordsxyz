@@ -3,8 +3,8 @@
     <header>
       <navigation-bar />
     </header>
-    <main class="flex-grow flex flex-col">
-      <Nuxt class="p-6" />
+    <main class="flex-grow flex flex-col bg-gray-100">
+      <Nuxt />
     </main>
     <footer>
       <footer-component />
