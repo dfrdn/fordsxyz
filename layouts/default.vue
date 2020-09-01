@@ -3,7 +3,7 @@
     <header>
       <navigation-bar />
     </header>
-    <main class="flex-grow flex flex-col bg-gray-100">
+    <main class="flex-grow flex flex-col bg-gray-100 text-gray-900">
       <Nuxt />
     </main>
     <footer>
@@ -23,6 +23,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,

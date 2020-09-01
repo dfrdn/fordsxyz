@@ -13,7 +13,21 @@ module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
   },
-  variants: {},
+  variants: [
+    'responsive',
+    'group-hover',
+    'group-focus',
+    'focus-within',
+    'first',
+    'last',
+    'odd',
+    'even',
+    'hover',
+    'focus',
+    'active',
+    'visited',
+    'disabled',
+  ],
   plugins: [require('@tailwindcss/typography')],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css

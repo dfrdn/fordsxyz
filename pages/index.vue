@@ -3,8 +3,9 @@
     <h1 class="text-right">Hi, I'm fords.</h1>
     <h2 class="text-right">
       I'm a
-      <span
-        ><vue-typer
+      <span class="font-mono"
+        >[
+        <vue-typer
           :text="roles"
           :repeat="Infinity"
           :shuffle="false"
@@ -16,8 +17,9 @@
           erase-style="clear"
           :erase-on-complete="false"
           caret-animation="smooth"
-        ></vue-typer></span
-      >.
+        ></vue-typer>
+        }.</span
+      >
     </h2>
     <p class="text-gray-500 text-center italic">
       This site is under constant construction.
@@ -44,14 +46,15 @@ export default Vue.extend({
 
 .vue-typer .custom.char {
   color: #d4d4bd;
-  background-color: #1e1e1e;
+  @apply text-gray-800
+  /* background-color: #1e1e1e; */;
 }
 .vue-typer .custom.char.selected {
-  background-color: #264f78;
+  /* background-color: #264f78; */
 }
 
 .vue-typer .custom.caret {
-  width: 10px;
-  background-color: #3f51b5;
+  /* width: 10px; */
+  /* background-color: #3f51b5; */
 }
 </style>

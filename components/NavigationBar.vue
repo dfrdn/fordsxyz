@@ -6,9 +6,11 @@
       <nuxt-link to="/" class="flex items-center flex-shrink-0 text-white mr-6">
         <!-- [ }. -->
         <!--logo goes here-->
-        <span class="font-semibold text-xl tracking-tight">this and that.</span>
+        <span class="font-semibold text-xl tracking-tight"
+          >[ this and that }.</span
+        >
       </nuxt-link>
-      <div class="block lg:hidden">
+      <div class="block lg:hidden" @click="menuIsActive = !menuIsActive">
         <button
           class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
         >
@@ -22,8 +24,12 @@
           </svg>
         </button>
       </div>
-      <div class="w-full hidden flex-grow lg:flex lg:w-auto">
-        <div class="text-sm lg:ml-auto lg:space-x-4">
+
+      <div
+        class="w-full flex-grow lg:flex lg:w-auto transform transition-all duration-200 ease-in-out"
+        :class="menuIsActive ? 'block' : 'hidden'"
+      >
+        <div class="text-sm sm:text-base lg:ml-auto lg:space-x-4">
           <nuxt-link
             v-for="link in links"
             :key="link.label"
@@ -44,6 +50,7 @@ import Vue from 'vue'
 export default Vue.extend({
   data: () => {
     return {
+      menuIsActive: false,
       links: [
         { label: 'dev', link: '/dev' },
         { label: 'law', link: '/law' },
@@ -54,4 +61,10 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+nav {
+  transition: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+</style>
