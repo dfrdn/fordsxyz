@@ -3,10 +3,13 @@
     <div
       class="flex items-center justify-between flex-wrap lg:container py-6 px-4 lg:px-0"
     >
-      <nuxt-link to="/" class="flex items-center flex-shrink-0 text-white mr-6">
+      <nuxt-link
+        to="/"
+        class="logo flex items-center flex-shrink-0 text-white mr-6 transition-colors duration-500 ease-in-out hover:text-teal-600"
+      >
         <!-- [ }. -->
         <!--logo goes here-->
-        <span class="font-semibold text-xl tracking-tight"
+        <span class="font-semibold text-2xl tracking-tight"
           >[ this and that }.</span
         >
       </nuxt-link>
@@ -26,7 +29,7 @@
       </div>
 
       <div
-        class="w-full flex-grow lg:flex lg:w-auto transform transition-all duration-200 ease-in-out"
+        class="w-full flex-grow lg:flex lg:w-auto"
         :class="menuIsActive ? 'block' : 'hidden'"
       >
         <div class="text-sm sm:text-base lg:ml-auto lg:space-x-4">
@@ -34,7 +37,7 @@
             v-for="link in links"
             :key="link.label"
             :to="link.link"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white transition-colors duration-500 ease-in-out"
           >
             {{ link.label }}
           </nuxt-link>
@@ -62,9 +65,10 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-nav {
-  transition: all;
-  transition-duration: 500ms;
-  transition-timing-function: ease-in-out;
+.nuxt-link-exact-active:not(.logo) {
+  @apply border-b-2 text-white font-semibold;
+}
+.nuxt-link-exact-active:is(.logo) {
+  @apply text-teal-500;
 }
 </style>

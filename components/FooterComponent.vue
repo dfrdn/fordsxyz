@@ -1,7 +1,7 @@
 <template>
   <div class="p-6 bg-gray-800">
     <div
-      class="flex flex-col md:flex-row justify-between container text-gray-200 space-y-2"
+      class="flex flex-col md:flex-row justify-between container text-gray-200 space-y-2 md:space-y-0"
     >
       <div>&copy; 2020 by Daniel Fordan.</div>
       <div class="flex md:items-center space-x-4">

@@ -1,11 +1,12 @@
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col min-h-screen antialiased">
     <header>
       <navigation-bar />
     </header>
-    <main class="flex-grow flex flex-col bg-gray-100 text-gray-900">
+    <main class="flex-grow bg-gray-100 text-gray-900 flex flex-col">
       <Nuxt />
     </main>
+
     <footer>
       <footer-component />
     </footer>
@@ -20,9 +21,6 @@ html {
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
