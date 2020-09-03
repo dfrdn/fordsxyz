@@ -1,11 +1,11 @@
 <template>
   <nav class="bg-gray-900">
     <div
-      class="flex items-center justify-between flex-wrap lg:container py-6 px-4 lg:px-0"
+      class="flex flex-col lg:flex-row items-center justify-between flex-wrap lg:container py-4 lg:py-6 px-4 lg:px-0"
     >
       <nuxt-link
         to="/"
-        class="logo flex items-center flex-shrink-0 text-white mr-6 transition-colors duration-500 ease-in-out hover:text-teal-600"
+        class="logo flex items-center flex-shrink-0 text-white transition-colors duration-500 ease-in-out hover:text-teal-600"
       >
         <!-- [ }. -->
         <!--logo goes here-->
@@ -13,26 +13,10 @@
           >[ this and that }.</span
         >
       </nuxt-link>
-      <div class="block lg:hidden" @click="menuIsActive = !menuIsActive">
-        <button
-          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+      <div class="w-full flex-grow lg:flex lg:w-auto block">
+        <div
+          class="flex justify-around text-sm sm:text-base lg:ml-auto lg:space-x-4"
         >
-          <svg
-            class="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-
-      <div
-        class="w-full flex-grow lg:flex lg:w-auto"
-        :class="menuIsActive ? 'block' : 'hidden'"
-      >
-        <div class="text-sm sm:text-base lg:ml-auto lg:space-x-4">
           <nuxt-link
             v-for="link in links"
             :key="link.label"
@@ -57,7 +41,7 @@ export default Vue.extend({
       links: [
         { label: 'dev', link: '/dev' },
         { label: 'law', link: '/law' },
-        { label: 'photography', link: '/photography' },
+        { label: 'photog', link: '/photog' },
       ],
     }
   },

@@ -1,20 +1,19 @@
 <template>
-  <article
-    class="container prose lg:prose-lg xl:prose-xl px-4 py-4 lg:py-8 lg:px-0"
-  >
-    <h1>{{ article.title }}</h1>
-    <li
-      v-for="link of article.toc"
-      :key="link.id"
-      class="block"
-      :class="{
-        'font-semibold': link.depth === 2,
-        'ml-2 font-light lg:text-lg no-underline': link.depth === 3,
-      }"
-    >
-      <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
-    </li>
-    <nuxt-content :document="article" />
+  <article class="mx-auto px-4 py-4 lg:py-8 lg:px-0">
+    <h1 class="text-center text-4xl font-bold mb-4">
+      {{ article.title }}
+    </h1>
+    <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10">
+      <div class="m-0 lg:mt-2">
+        <table-of-contents
+          id="toc"
+          :toc="article.toc"
+          class="sticky top-0 flex-auto"
+        />
+        <hr class="mt-4 block lg:hidden" />
+      </div>
+      <nuxt-content :document="article" class="prose lg:prose-lg xl:prose-xl" />
+    </div>
   </article>
 </template>
 
@@ -39,5 +38,9 @@ export default Vue.extend({
   p {
     @apply my-4 text-justify;
   }
+}
+
+#toc {
+  top: 20px;
 }
 </style>

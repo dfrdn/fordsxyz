@@ -4,9 +4,10 @@
       <h1 class="text-right">Hi, I'm fords.</h1>
       <h2 class="text-right">
         I'm a
-        <span class="font-mono"
-          >[
+        <span class="font-mono">[</span>
+        <client-only>
           <vue-typer
+            class="inline"
             :text="roles"
             :repeat="Infinity"
             :shuffle="false"
@@ -18,9 +19,9 @@
             erase-style="clear"
             :erase-on-complete="false"
             caret-animation="smooth"
-          ></vue-typer>
-          }.</span
-        >
+          ></vue-typer
+        ></client-only>
+        <span class="font-mono">}.</span>
       </h2>
     </div>
     <div class="m-4 text-gray-500 text-center italic flex-shrink">

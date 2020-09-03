@@ -1,22 +1,22 @@
 <template>
   <nuxt-link
     :to="to"
-    class="flex flex-col transition duration-150 ease-in-out shadow hover:shadow-lg my-10 overflow-hidden rounded group"
+    class="flex flex-col transition duration-150 ease-in-out shadow hover:shadow-lg my-10 overflow-hidden rounded group space-y-4 py-6"
   >
-    <div class="mx-8 my-4">
+    <div class="mx-8">
       <h1 class="text-3xl font-bold text-gray-800 group-hover:underline">
         {{ title }}
       </h1>
-      <p class="text-gray-500 text-sm">{{ formatDate(dateCreated) }}</p>
+      <p class="text-gray-500 text-sm">{{ formattedDate }}</p>
     </div>
-    <div class="space-y-2 mx-8 my-4">
-      <p v-for="desc in formatDescription(description)" :key="desc">
+    <div class="space-y-2 mx-8">
+      <p v-for="desc in formattedDescription" :key="desc">
         {{ desc }}
       </p>
     </div>
     <div
       id="continue-reading"
-      class="text-sm mx-8 mb-4 group-hover:text-gray-600 group-hover:font-semibold"
+      class="text-sm mx-8 group-hover:text-gray-600 group-hover:font-semibold"
     >
       <p>
         Continue Reading
@@ -63,13 +63,14 @@ export default Vue.extend({
       required: true,
     },
   },
-  methods: {
-    formatDate(date: string) {
+
+  computed: {
+    formattedDate() {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en-gb', options)
+      return new Date(this.dateCreated).toLocaleDateString('en-gb', options)
     },
-    formatDescription(desc: string) {
-      return desc.split('\n').filter((par) => par)
+    formattedDescription() {
+      return this.description.split('\n').filter((par) => par)
     },
   },
 })

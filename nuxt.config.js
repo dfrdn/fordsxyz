@@ -34,12 +34,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [
-    {
-      src: '@/plugins/vueTyper.ts',
-      ssr: false,
-    },
-  ],
+  plugins: ['@/plugins/vueTyper.client.ts'],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
