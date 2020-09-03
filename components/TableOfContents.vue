@@ -1,18 +1,20 @@
 <template>
-  <div class="space-y-2">
-    <nuxt-link
-      v-for="link in toc"
-      :key="link.id"
-      class="block"
-      :class="{
-        'font-semibold lg:text-xl': link.depth === 2,
-        'pl-2 font-light lg:text-lg no-underline': link.depth === 3,
-      }"
-      :to="`#${link.id}`"
-    >
-      {{ link.text }}
-    </nuxt-link>
-  </div>
+  <client-only>
+    <scrollactive class="space-y-2">
+      <a
+        v-for="link in toc"
+        :key="link.id"
+        class="block scrollactive-item"
+        :class="{
+          'font-semibold lg:text-xl': link.depth === 2,
+          'pl-2 font-light lg:text-lg no-underline': link.depth === 3,
+        }"
+        :href="`#${link.id}`"
+      >
+        {{ link.text }}
+      </a>
+    </scrollactive>
+  </client-only>
 </template>
 
 <script lang="ts">

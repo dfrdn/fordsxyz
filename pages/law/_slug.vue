@@ -4,8 +4,8 @@
       <h1 class="text-4xl md:text-6xl font-bold">
         {{ article.title }}
       </h1>
-      <h2>{{ article.createdAt }}</h2>
-      <h2>{{ article.author || 'Daniel Fordan' }}</h2>
+      <!-- <h2>{{ article.createdAt }}</h2>
+      <h2>{{ article.author || 'Daniel Fordan' }}</h2> -->
     </div>
     <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10">
       <div class="m-0 lg:mt-2">
@@ -42,5 +42,8 @@ export default Vue.extend({
 
 #toc {
   top: 20px;
+  .is-active {
+    @apply underline;
+  }
 }
 </style>
