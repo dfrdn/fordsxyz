@@ -1,15 +1,15 @@
 <template>
   <article class="mx-auto px-4 py-4 lg:py-8 lg:px-0">
-    <h1 class="text-center text-4xl font-bold mb-4">
-      {{ article.title }}
-    </h1>
+    <div class="text-center mb-6">
+      <h1 class="text-4xl md:text-6xl font-bold">
+        {{ article.title }}
+      </h1>
+      <h2>{{ article.createdAt }}</h2>
+      <h2>{{ article.author || 'Daniel Fordan' }}</h2>
+    </div>
     <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10">
       <div class="m-0 lg:mt-2">
-        <table-of-contents
-          id="toc"
-          :toc="article.toc"
-          class="sticky top-0 flex-auto"
-        />
+        <table-of-contents id="toc" :toc="article.toc" class="lg:sticky" />
         <hr class="mt-4 block lg:hidden" />
       </div>
       <nuxt-content :document="article" class="prose lg:prose-lg xl:prose-xl" />

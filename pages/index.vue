@@ -25,15 +25,19 @@
       </h2>
     </div>
     <div class="m-4 text-gray-500 text-center italic flex-shrink">
-      <p>
-        <span class="font-serif text-xl">“</span>All grown-ups were once
-        children... but only few of them remember it.<span
-          class="font-serif text-xl"
-          >”</span
-        >
+      <div class="text-sm md:text-base space-y-2 md:space-y-0">
+        <p class="leading-tight">
+          <span class="font-serif text-xl leading-none">“</span>All grown-ups
+          were once children... but only few of them remember it.<span
+            class="font-serif text-xl leading-none"
+            >”</span
+          >
+        </p>
+        <p>― Antoine de Saint-Exupéry, The Little Prince</p>
+      </div>
+      <p class="my-2 md:my-4 text-xs md:text-sm">
+        This site is under constant construction.
       </p>
-      <p>― Antoine de Saint-Exupéry, The Little Prince</p>
-      <p class="my-4">This site is under constant construction.</p>
     </div>
   </section>
 </template>

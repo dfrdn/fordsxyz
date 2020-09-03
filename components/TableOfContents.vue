@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="space-y-2">
     <nuxt-link
       v-for="link in toc"
       :key="link.id"
       class="block"
       :class="{
-        'font-semibold': link.depth === 2,
+        'font-semibold lg:text-xl': link.depth === 2,
         'pl-2 font-light lg:text-lg no-underline': link.depth === 3,
       }"
       :to="`#${link.id}`"
