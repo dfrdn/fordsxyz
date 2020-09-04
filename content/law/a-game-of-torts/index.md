@@ -38,11 +38,17 @@ The word “tort” is a French term which originated from the Latin word _torqu
 2. Fault or negligence of the defendant, or some other person for whose acts he must respond; and
 3. Connection of cause and effect between the fault or negligence of the defendant and the damages incurred by the plaintiff.[^32]
 
+<v-img src='breaking_barriers.svg' alt='car'></v-img>
+
 Thus, tort law deals with situations where a person injures another person by breaching his legal duty not to violate the right of another member of society.[^33] Consequently, it is the law governing cases of vehicular accidents. In determining “who pays,” it is thus necessary to look into the underlying values of tort law and its purposes.
 
 ### Purpose
 
-Tort law contributes to the objective of the law to reduce, or if possible, to eliminate risks in society by providing deterrence to harmful activities.[^34] However, since it is impossible to totally eliminate injuries because “men voluntarily accepts risks as a quid pro quo for their needs,” tort law provides the alternative of providing redress to anyone injured,[^35] _i.e._, allocating risks and liabilities in the society.[^36] Jurists are in agreement that the central aim of tort law is the reduction of accidents.[^37] In line with this, the major purposes of tort law are: “1) to provide a peaceful means for adjusting the rights of parties who might otherwise take the law into their own hands; 2) deter wrongful conduct; 3) to encourage socially responsible behavior; and 4) to restore injured parties to their original condition, insofar as the law can do this, by compensating them for their injury.”[^38]
+Tort law contributes to the objective of the law to reduce, or if possible, to eliminate risks in society by providing deterrence to harmful activities.[^34] However, since it is impossible to totally eliminate injuries because “men voluntarily accepts risks as a quid pro quo for their needs,” tort law provides the alternative of providing redress to anyone injured,[^35] _i.e._, allocating risks and liabilities in the society.[^36] Jurists are in agreement that the central aim of tort law is the reduction of accidents.[^37] In line with this, the major purposes of tort law are: 
+1. to provide a peaceful means for adjusting the rights of parties who might otherwise take the law into their own hands
+2. to deter wrongful conduct
+3. to encourage socially responsible behavior
+4. to restore injured parties to their original condition, insofar as the law can do this, by compensating them for their injury.[^38]
 
 In addition, tort law also aims to balance conflicting interests.[^39] As Dean Wright explained, doing all the things that constitute modern living necessarily leads to some losses or injuries.[^40] Thus, according to her,
 
@@ -51,6 +57,8 @@ In addition, tort law also aims to balance conflicting interests.[^39] As Dean W
 ### Theoretical Justification
 
 There are two main theoretical perspectives justifying tort law and the shifting of losses — the moral and social perspective.[^42]
+
+<v-img src='judge.svg' alt='car'></v-img>
 
 Under the moral perspective, liability may be imposed on a tort because such act or omission is considered a moral wrong.[^43] This perspective is in line with the maxim _Ubi jus ibi remedium_ — there is no wrong without a remedy.[^44] It may be said that the liability imposed by tort law is deemed as a private penalty for the wrong done because of one’s moral shortcoming.[^45] As such, if no wrong is done, there should be no basis to impose liability under this perspective.
 
@@ -72,13 +80,21 @@ To understand how autonomous vehicles may disrupt tort principles, an inquiry in
 
 Throughout history, humans have been continuously aspiring to make life easier and better.[^56] One way of achieving such aspiration is to make artificial creatures capable of doing our tasks for us. We call these creatures robots.
 
+<v-img src='artificial_intelligence.svg' alt='car'></v-img>
+
 In the year 1961 robots were first employed in the automobile industry.[^57] The UNIMATE robot was used by General Motors in manufacturing cars to perform spot welding and to extract die-castings.[^58] Soon after, they looked beyond creating more cars using robots but to create cars that are robots — fully autonomous cars.[^59] However, mass adoption of robotic technology only began in the early 1980s when Japanese car industry began to use robots on a large scale in their factories thereby decreasing costs and increasing the quality of their products.[^60] Eventually, the industrial robot industry became dominated by car manufacturers. It is therefore natural that several states, organizations, and private companies began to seriously pursue the project of creating autonomous cars, or unmanned ground vehicles (UGV) as they called it.[^61]
 
 In 1987—1995, the European Commission funded the Eureka Prometheus Project (Programme for a European Traffic of Highest Efficiency and Unprecedented Safety) to research on driverless cars.[^62] In the late 1990s, the Defense Advanced Research Projects Agency (DARPA) was authorized “to organize a series of prize competitions for driverless cars in order to develop the military sector of UGVs and make one-third of ground military forces autonomous by 2015.”[^63] In the first race of the DARPA Grand Challenge competition on 13 March 2004, none of the cars was able to complete the race.[^64] After a year and a half, five vehicles were able to finish the second race.[^65] On 3 November 2007, Carnegie Mellon won the third DARPA race at a speed of 22.53 kph.[^66] Fast forward to the present, autonomous cars no longer just run in DARPA races at 22.53 kph. Cars capable of partial or conditional automation are now available for the public.[^67] We are now closer than ever in achieving the goal of turning our cars into robots.
 
 ### Levels of Automation
 
-Cars may be classified into six categories depending on the level of automation: 1) Level 0 — No Automation; 2) Level 1 — Driver Assistance; 3) Level 2 — Partial Automation; 4) Level 3 — Conditional Automation; 5) Level 4 — High Automation; 6) Level 5 — Full Automation.[^68]
+Cars may be classified into six categories depending on the level of automation: 
+- Level 0 — No Automation
+- Level 1 — Driver Assistance
+- Level 2 — Partial Automation
+- Level 3 — Conditional Automation
+- Level 4 — High Automation
+- Level 5 — Full Automation.[^68]
 
 Level 0 cars are the traditional cars we have where there is totally no automation.[^69] Level 1 systems have driver assistance wherein, under certain conditions, the car can control either the steering or the speed but not both at the same time.[^70] An example of a level 1 system is an adaptive cruise control.[^71] Level 2 systems offer partial automation wherein the car is capable of steering, accelerating, and breaking in certain circumstances.[^72] In level 2 systems, the responsibility for monitoring hazards still primarily belong to the human driver.[^73] Level 2 systems are pretty common now such as Tesla autopilot, Audi Traffic Jam Assist, and Mercedes-Benz Driver Assistance Systems.[^74]
 
@@ -98,7 +114,12 @@ Law is a mode of regulating behavior.[^86] By prescribing punishments, imposing 
 
 Game theory is “a set of tools and language for describing and predicting strategic behavior.”[^88] A core concept in this definition is “strategic behavior.”[^89] When two or more persons interact with each other and each person’s decision depends on what that person expects the others will do, there is what we call a strategic behavior.[^90] Because law regulates behavior, game theory becomes a useful tool in providing insights as to how the laws regulate the behavior of people.[^91]
 
-In game theory, interactions are modeled into a “game.”[^92] One known model is called the “normal-form game” or “strategic form” of a game.[^93] The normal-form game has three elements: “1) the players in the game; 2) the strategies available to the players; and 3) the payoff each player receives for each possible combination of strategies.”[^94]
+<v-img src='playing_cards.svg' alt='car'></v-img>
+
+In game theory, interactions are modeled into a “game.”[^92] One known model is called the “normal-form game” or “strategic form” of a game.[^93] The normal-form game has three elements: 
+1. the players in the game 
+2. the strategies available to the players
+3. the payoff each player receives for each possible combination of strategies.[^94]
 
 ### An Illustrative Example
 

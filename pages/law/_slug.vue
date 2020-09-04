@@ -32,23 +32,29 @@ export default Vue.extend({
     const [article] = await $content('law', params.slug, { deep: true }).fetch()
     return { article }
   },
+  head() {
+    return {
+      title: this.article.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.article.title,
+        },
+      ],
+    }
+  },
 })
 </script>
 
 <style lang="scss">
 .nuxt-content {
-  h2 {
-    @apply text-2xl my-4 py-2;
-  }
-  h3 {
-    @apply text-xl my-4 py-2;
-  }
   p {
-    @apply my-4 text-justify;
+    @apply text-justify;
   }
-    .footnotes {
-        @apply text-sm;
-    }
+  .footnotes {
+    @apply text-sm;
+  }
 }
 
 #toc {

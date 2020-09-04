@@ -18,6 +18,18 @@ export default Vue.extend({
     const articles = await $content('law' || 'index', { deep: true }).fetch()
     return { articles }
   },
+  head() {
+    return {
+      title: 'Law',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Law-related posts',
+        },
+      ],
+    }
+  },
 })
 </script>
 

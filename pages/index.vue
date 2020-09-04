@@ -51,6 +51,18 @@ export default Vue.extend({
       roles: ['developer', 'photographer', 'lawyer', 'learner'],
     }
   },
+  head() {
+    return {
+      title: '[ this and that }.',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'dev, law, photog, and everything in between',
+        },
+      ],
+    }
+  },
 })
 </script>
 
