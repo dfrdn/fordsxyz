@@ -13,8 +13,10 @@
       <!-- <h2>{{ article.createdAt }}</h2>
       <h2>{{ article.author || 'Daniel Fordan' }}</h2> -->
     </div>
-    <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10">
-      <div class="m-0 lg:mt-2">
+    <div
+      class="container flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10"
+    >
+      <div class="m-0 lg:mt-2 max-w-xs">
         <table-of-contents id="toc" :toc="article.toc" class="lg:sticky" />
         <hr class="mt-4 block lg:hidden" />
       </div>
