@@ -2,11 +2,11 @@
   <div class="container p-6">
     <article-preview
       v-for="article in articles"
-      :key="article.slug"
+      :key="article.dir"
       :title="`${article.title}`"
       :date-created="article.createdAt"
       :description="article.description"
-      :to="`/law/${article.slug}`"
+      :to="article.dir"
     />
   </div>
 </template>
@@ -15,7 +15,7 @@
 import Vue from 'vue'
 export default Vue.extend({
   async asyncData({ $content }) {
-    const articles = await $content('law' || 'index').fetch()
+    const articles = await $content('law' || 'index', { deep: true }).fetch()
     return { articles }
   },
 })

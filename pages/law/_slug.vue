@@ -27,7 +27,7 @@
 import Vue from 'vue'
 export default Vue.extend({
   async asyncData({ $content, params }) {
-    const article = await $content('law', params.slug).fetch()
+    const [article] = await $content('law', params.slug, { deep: true }).fetch()
     return { article }
   },
 })
