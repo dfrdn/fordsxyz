@@ -1,5 +1,11 @@
 <template>
   <article class="mx-auto px-4 py-4 lg:py-8 lg:px-0">
+    <client-only>
+      <vue-scroll-progress-bar
+        height="0.25rem"
+        background-color="linear-gradient(to right, #4a5568, #2d3748)"
+      />
+    </client-only>
     <div class="text-center mb-6">
       <h1 class="text-4xl md:text-6xl font-bold">
         {{ article.title }}

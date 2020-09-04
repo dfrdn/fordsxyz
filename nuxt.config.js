@@ -37,6 +37,7 @@ export default {
   plugins: [
     '@/plugins/vueTyper.client.ts',
     '@/plugins/vueScrollActive.client.ts',
+    '@/plugins/vueScrollProgressBar.client.ts',
   ],
   /*
    ** Auto import components
