@@ -19,7 +19,7 @@ export default {
   computed: {
     imgSrc() {
       try {
-        const { article } = this.$parent.$parent
+        const { article } = this.$parent._data
         return require(`~/content${article.dir}/img/${this.src}`)
       } catch (error) {
         return null
