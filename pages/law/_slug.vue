@@ -25,7 +25,7 @@
   </article>
 </template>
 
-<script lang="ts">
+<script lang>
 import Vue from 'vue'
 export default Vue.extend({
   async asyncData({ $content, params }) {

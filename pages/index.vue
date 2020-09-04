@@ -72,9 +72,7 @@ export default Vue.extend({
 }
 
 .vue-typer .custom.char {
-  color: #d4d4bd;
-  @apply text-gray-800
-  /* background-color: #1e1e1e; */;
+  @apply text-gray-800;
 }
 .vue-typer .custom.char.selected {
   /* background-color: #264f78; */
