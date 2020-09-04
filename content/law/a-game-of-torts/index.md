@@ -290,127 +290,125 @@ Thus, this paper has illustrated how game theory might be an insightful tool in 
 
 In the end, even if we do not know how computers think, we still know how humans react. Consequently, game theory may also be applied to AI actors since they are programmed to act and react like humans. The introduction of AI actors does not change the game, it only changes the players.
 
----
-
-[^1]: See An Act to Ordain and Institute the Civil Code of the Philippines [CIVIL CODE], Republic Act No. 386, art. 2176 (1950). (“Whoever by act or omission causes damage to another, there being fault or negligence, is obliged to pay for the damage done. Such fault or negligence, if there is no pre-existing contractual relation between the parties, is called a quasi-delict and is governed by the provisions of this Chapter.”).
+[^1]: _See_ An Act to Ordain and Institute the Civil Code of the Philippines [CIVIL CODE], Republic Act No. 386, art. 2176 (1950). (“Whoever by act or omission causes damage to another, there being fault or negligence, is obliged to pay for the damage done. Such fault or negligence, if there is no pre-existing contractual relation between the parties, is called a quasi-delict and is governed by the provisions of this Chapter.”).
 [^2]: The Guardian, Tesla driver dies in first fatal crash while using autopilot mode, available at https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk (last accessed 24 December 2017).
-[^3]: Id.
+[^3]: _Id._
 [^4]: Johana Bhuiyan, Recode, A federal agency says an overreliance on Tesla’s Autopilot contributed to a fatal crash, available at https://www.recode.net/2017/9/12/16294510/fatal-tesla-crash-self-driving-elon-musk-autopilot (last accessed 24 December 2017).
 [^5]: USA Today, Driver killed in Tesla self-driving car crash ignored warnings, NTSB reports, available at https://www.usatoday.com/story/money/cars/2017/06/20/tesla-self-driving-car-crash/411516001/ (last accessed 24 December 2017).
 [^6]: USA Today, U.S. auto-safety regulators: No defect found in Tesla Autopilot, available at https://www.usatoday.com/story/money/cars/2017/01/19/tesla-motors-autopilot-nhtsa-national-highway-traffic-safety-administration/96772420/ (last accessed 24 December 2017).
 [^7]: Car automation systems are divided into six levels. A level 2 system means partial automation wherein the car itself “can steer, accelerate, and brake in certain circumstances.” In this level, tactical manoeuvres and scanning for hazards are still performed by the driver. As such, the driver still has to keep his hand on the wheel.
 
-Car and Driver, Path to Autonomy: Self-Driving Car Levels 0 to 5 Explained, available at https://www.caranddriver.com/features/path-to-autonomy-self-driving-car-levels-0-to-5-explained-feature (last accessed 24 December 2017).
-[^8]: See infra Part II.B.
+    Car and Driver, Path to Autonomy: Self-Driving Car Levels 0 to 5 Explained, available at https://www.caranddriver.com/features/path-to-autonomy-self-driving-car-levels-0-to-5-explained-feature (last accessed 24 December 2017).
+[^8]: _See_ infra [Levels of Automation](#levels-of-automation)
 [^9]: Car and Driver, supra note 7.
-[^10]: See infra Part II.
+[^10]: _See_ infra [Autonomous Vehicles](#autonomous-vehicles).
 [^11]: UGO PAGALLO, THE LAW OF ROBOTS: CRIMES, CONTRACTS, AND TORTS 110 (citing Gogarty, Brendan, and Hagger, The Laws of Man over Vehicles Unamanned: The Legal Response to Robotic Revolution on Sea, Land, and Air, JOURNAL OF LAW, INFORMATION AND SCIENCE (2008)) (2013).
 [^12]: See David Vladeck, Machines Without Principals: Liability Rules and Artificial Intelligence, 89 WASH. L. REV. 117, 126 (2014).
-[^13]: Id., at 127.
-[^14]: See PAGALLO, supra note 11, at 49.
-[^15]: Id. at 53.
-[^16]: See Howard Latin, Problem-Solving Behavior and Theories of Tort Liability, 73 CAL. L. REV. 677, 677 (1985).
+[^13]: _Id._ at 127.
+[^14]: _See_ PAGALLO, supra note 11, at 49.
+[^15]: _Id._ at 53.
+[^16]: _See_ Howard Latin, Problem-Solving Behavior and Theories of Tort Liability, 73 CAL. L. REV. 677, 677 (1985).
 [^17]: Lawrence Lessig, The Law of the Horse: What Cyberlaw Might Teach, 113 HARV. L. REV. 501, 506 (1999).
 [^18]: YUVAL NOAH HARARI, SAPIENS: A BRIEF HISTORY OF HUMANKIND 102-12 (2015).
-[^19]: See Cangco v. Manila Railroad Co., 38 Phil. 768 (1918).
-[^20]: Id.
+[^19]: _See_ Cangco v. Manila Railroad Co., 38 Phil. 768 (1918).
+[^20]: _Id._
 [^21]: Latin, supra note 16.
 [^22]: DOUGLAS BAIRD, ET. AL., GAME THEORY AND THE LAW 14 (1994).
 [^23]: Randal Picker, An Introduction to Game Theory and the Law, COASE-SANDOR INSTITUTE FOR LAW & ECONOMICS WORKING PAPERS 2 (1994).
 [^24]: Baird, supra note 22 (1994).
 [^25]: Picker, supra note 23 at 3.
-[^26]: Id.
+[^26]: _Id._
 [^27]: Baird, supra note 22 at xi.
 [^28]: TIMOTEO AQUINO, TORTS AND DAMAGES 1 (citing Robles v. Castillo, 61 O.G. 1220) (2d ed. 2005).
 [^29]: FREDERICO MORENO, PHILIPPINE LAW DICTIONARY 955 (citing Robles) (3d ed. 1998).
 [^30]: AQUINO, supra note 28 (citing Robles).
-[^31]: Id.
+[^31]: _Id._
 [^32]: Andamo v. Intermediate Appellate Court, 191 SCRA 195 (1990).
-[^33]: See Cangco, 38 Phil. 768.
+[^33]: _See_ Cangco, 38 Phil. 768.
 [^34]: AQUINO, supra note 28 at v.
-[^35]: Id.
-[^36]: See id. (citing Phoenix Construction, Inc. v. Intermediate Appellate Court, 148 SCRA 353 (1987)).
+[^35]: _Id._
+[^36]: _See id_. (citing Phoenix Construction, Inc. v. Intermediate Appellate Court, 148 SCRA 353 (1987)).
 [^37]: Ryan Abbott, The Reasonable Computer: Disrupting the Paradigm of Tort Liability, GEO. WASH. L. REV. (Forthcoming).
 [^38]: AQUINO, supra note 28 at 10.
-[^39]: Id. at 11.
-[^40]: Id. (citing CECIL WRIGHT, CASES ON THE LAW OF TORTS 1 (1967)).
-[^41]: Id.
-[^42]: Id at 16.
-[^43]: Id.
+[^39]: _Id._ at 11.
+[^40]: _Id._ (citing CECIL WRIGHT, CASES ON THE LAW OF TORTS 1 (1967)).
+[^41]: _Id._
+[^42]: _Id._ at 16.
+[^43]: _Id._
 [^44]: AQUINO, supra note 28 at 17.
-[^45]: Id. (citing WOLFGANG FRIEDMANN, LEGAL THEORY 529 (5th ed. 1967)).
+[^45]: _Id._ (citing WOLFGANG FRIEDMANN, LEGAL THEORY 529 (5th ed. 1967)).
 [^46]: AQUINO, supra note 28 at 17.
-[^47]: Id.
-[^48]: Id. (citing DAVID W. BARNES AND LYNN A. STOUT, ECONOMIC ANALYSIS OF TORT LAW 27 (1992)).
+[^47]: _Id._
+[^48]: _Id._ (citing DAVID W. BARNES AND LYNN A. STOUT, ECONOMIC ANALYSIS OF TORT LAW 27 (1992)).
 [^49]: Phoenix, 148 SCRA 353.
-[^50]: Id., at 370
+[^50]: _Id._ at 370
 [^51]: AQUINO, supra note 28 at 18.
 [^52]: PAGALLO, supra note 11, at 119.
 [^53]: AQUINO, supra note 28, at 1-2.
-[^54]: Id.
-[^55]: Id.
+[^54]: _Id._
+[^55]: _Id._
 [^56]: See generally HARARI, supra note 18.
 [^57]: PAGALLO, supra note 11, at viii.
-[^58]: Id.
-[^59]: Id.
-[^60]: Id.
-[^61]: Id.
+[^58]: _Id._
+[^59]: _Id._
+[^60]: _Id._
+[^61]: _Id._
 [^62]: PAGALLO, supra note 11, at 108.
-[^63]: Id.
-[^64]: Id.
-[^65]: Id.
-[^66]: Id.
+[^63]: _Id._
+[^64]: _Id._
+[^65]: _Id._
+[^66]: _Id._
 [^67]: See Car and Driver, supra note 7.
-[^68]: Id.
-[^69]: Id.
-[^70]: Id.
-[^71]: Id.
-[^72]: Id.
+[^68]: _Id._
+[^69]: _Id._
+[^70]: _Id._
+[^71]: _Id._
+[^72]: _Id._
 [^73]: See Car and Driver, supra note 7.
 [^74]: See id.
-[^75]: Id.
-[^76]: Id.
-[^77]: Id.
-[^78]: Id.
+[^75]: _Id._
+[^76]: _Id._
+[^77]: _Id._
+[^78]: _Id._
 [^79]: See Car and Driver, supra note 7.
-[^80]: Id.
-[^81]: See id.
+[^80]: _Id._
+[^81]: _See id._
 [^82]: The Verge, Waymo is first to put fully self-driving cars on US roads without a safety driver, available at https://www.theverge.com/2017/11/7/16615290/waymo-self-driving-safety-driver-chandler-autonomous (last accessed 26 December 2017).
-[^83]: See Vladeck, supra note 12, at 27.
-[^84]: See Will Knight, MIT Technology Review, The Dark Secret at the Heart of AI, available at https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/ (last accessed 26 December 2017). (“The system is so complicated that even the engineers who designed it may struggle to isolate the reason for any single action. And you can’t ask it: there is no obvious way to design such a system so that it could always explain why it did what it did.”).
+[^83]: _See_ Vladeck, supra note 12, at 27.
+[^84]: _See_ Will Knight, MIT Technology Review, The Dark Secret at the Heart of AI, available at https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/ (last accessed 26 December 2017). (“The system is so complicated that even the engineers who designed it may struggle to isolate the reason for any single action. And you can’t ask it: there is no obvious way to design such a system so that it could always explain why it did what it did.”).
 [^85]: PAGALLO, supra note 11.
 [^86]: Lessig, supra note 17.
-[^87]: See id.
+[^87]: _See id_.
 [^88]: Picker, supra note 23, at 2.
-[^89]: See id.
+[^89]: _See id_.
 [^90]: BAIRD, supra note 22, at 1.
-[^91]: Id., at xi.
-[^92]: Id., at 7.
-[^93]: Id.
-[^94]: Id., at 8.
+[^91]: _Id._ at xi.
+[^92]: _Id._ at 7.
+[^93]: _Id._
+[^94]: _Id._ at 8.
 [^95]: This illustration is the one used by Baird, et. al., in their book Game Theory and the Law to introduce the normal-form game.
 
-See id., at 8-14.
+    _See id._ at 8-14.
 [^96]: BAIRD, supra note 22, at 8.
-[^97]: Id.
-[^98]: Id.
-[^99]: See id., at 11.
-[^100]: Id.
-[^101]: Id.
+[^97]: _Id._
+[^98]: _Id._
+[^99]: _See id._ at 11.
+[^100]: _Id._
+[^101]: _Id._
 [^102]: BAIRD, supra note 22, at 11.
-[^103]: Id.
-[^104]: Id.
-[^105]: Id., at 12.
+[^103]: _Id._
+[^104]: _Id._
+[^105]: _Id._ at 12.
 [^106]: Josh Villasenor, Products Liability and Driverless Cars: Issues and Guiding Principles for Legislation, available at https://www.brookings.edu/research/products-liability-and-driverless-cars-issues-and-guiding-principles-for-legislation/ (last accessed 27 December 2017).
 [^107]: Such combination is the first and third cells where the owner chooses not to use an autonomous vehicle at all.
-[^108]: But see Abbott, supra note 37, at 43. (“Once a manufacturer establishes that a computer tortfeasor is safer than a person, the negligence test should focus on whether the computer’s act was negligent, rather than whether the computer was negligently designed or marketed…It makes no difference to an accident victim what a computer was ‘thinking,’ only how the computer acted.”).
+[^108]: _But see_ Abbott, supra note 37, at 43. (“Once a manufacturer establishes that a computer tortfeasor is safer than a person, the negligence test should focus on whether the computer’s act was negligent, rather than whether the computer was negligently designed or marketed…It makes no difference to an accident victim what a computer was ‘thinking,’ only how the computer acted.”).
 [^109]: Under the doctrine of respondeat superior, the master is always unconditionally liable for the acts of the servant within the scope of the employment.
 
-See Cangco, 38 Phil. 768.
+    _See_ Cangco, 38 Phil. 768.
 [^110]: PAGALLO, supra note 11, at 131 (citing SAMIR CHOPRA & LAURENCE WHITE, A LEGAL THEORY FOR AUTONOMOUS ARTIFICIAL AGENTS (2011) citing (RICHARD POSNER, ECONOMIC ANALYSIS OF LAW (7th ed. 2007))).
-[^111]: See infra Part II.A.
+[^111]: _See_ infra [Brief History](#brief-history)
 [^112]: AQUINO, supra note 28 at 10.
-[^113]: See Abbott, supra note 37, at 20-2. (“Product liability refers to responsibility for the commercial transfer of a product that causes harm because it is defective or its properties are falsely represented…Businesses are often in the best position to prevent product injuries, and can distribute liability through insurance.”).
-[^114]: See Knight, supra note 84.
-[^115]: See Lessig, supra note 17, at 506.
-[^116]: See Joseph v. Bautista, 170 SCRA 540 (1989).
+[^113]: _See_ Abbott, supra note 37, at 20-2. (“Product liability refers to responsibility for the commercial transfer of a product that causes harm because it is defective or its properties are falsely represented…Businesses are often in the best position to prevent product injuries, and can distribute liability through insurance.”).
+[^114]: _See_ Knight, supra note 84.
+[^115]: _See_ Lessig, supra note 17, at 506.
+[^116]: _See_ Joseph v. Bautista, 170 SCRA 540 (1989).

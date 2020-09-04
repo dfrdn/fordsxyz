@@ -46,6 +46,9 @@ export default Vue.extend({
   p {
     @apply my-4 text-justify;
   }
+    .footnotes {
+        @apply text-sm;
+    }
 }
 
 #toc {
