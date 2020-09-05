@@ -2,9 +2,7 @@
 title: 'A Game of Torts'
 subtitle: 'Comparing Tort Liability Regimes Using Game Theory in the Context of Autonomous Vehicles'
 description: >
-  When there is a vehicular accident, the driver, if there is fault or negligence on his part, is obliged to pay for the damages caused by his or her act or omission.  What if there is no driver, who pays?
-
-  This Paper attempts to compare different tort liability regimes as applied in the case of accidents involving Level 5 autonomous vehicles by determining how they affect the behaviors of different actors in society such as car-owners, manufacturers, or pedestrians by using game theory. Such predicted behaviors will then be tested against the underlying values and purposes of tort law.
+  When there is a vehicular accident, the driver, if there is fault or negligence on his part, is obliged to pay for the damages caused by his or her act or omission. What if there is no driver, who pays?
 author:
 tags: []
 ---
