@@ -16,7 +16,7 @@ tags: []
 
 When there is a vehicular accident, the driver, if there is fault or negligence on his part, is obliged to pay for the damages caused by his or her act or omission.[^1] What if there is no driver, who pays?
 
-<v-img src='electric_car.svg' alt='car'></v-img>
+<v-img src='electric_car.svg' alt='electric car'></v-img>
 
 On 7 May 2016, Joshua Brown died when the autopilot sensors of his Tesla Model S failed to detect a white tractor-trailer and crashed full speed under the said truck.[^2] This was the first known death caused by a self-driving car.[^3] According to the National Transportation Safety Board (NTSB), part of the probable cause of the crash was the driver’s inattentiveness due to his over-reliance on the autopilot mechanism of the car.[^4] As a result, the NTSB said that the car manufacturer, Tesla, is not at fault[^5] in line with the finding of the National Highway Traffic Safety Administration (NHTSA) which found no defect in the self-driving system of Tesla.[^6] However, the reason for this is because the Tesla self-driving car is only a level 2 system[^7] wherein the driver’s engagement during the operation is still necessary.[^8] Once a car reaches Level 3 automation, “the responsibility for monitoring the driving environment shifts from the driver to the system.”[^9]
 
@@ -38,7 +38,7 @@ The word “tort” is a French term which originated from the Latin word _torqu
 2. Fault or negligence of the defendant, or some other person for whose acts he must respond; and
 3. Connection of cause and effect between the fault or negligence of the defendant and the damages incurred by the plaintiff.[^32]
 
-<v-img src='breaking_barriers.svg' alt='car'></v-img>
+<v-img src='breaking_barriers.svg' alt='breaking'></v-img>
 
 Thus, tort law deals with situations where a person injures another person by breaching his legal duty not to violate the right of another member of society.[^33] Consequently, it is the law governing cases of vehicular accidents. In determining “who pays,” it is thus necessary to look into the underlying values of tort law and its purposes.
 
@@ -58,7 +58,7 @@ In addition, tort law also aims to balance conflicting interests.[^39] As Dean W
 
 There are two main theoretical perspectives justifying tort law and the shifting of losses — the moral and social perspective.[^42]
 
-<v-img src='judge.svg' alt='car'></v-img>
+<v-img src='judge.svg' alt='judge thinking about theories'></v-img>
 
 Under the moral perspective, liability may be imposed on a tort because such act or omission is considered a moral wrong.[^43] This perspective is in line with the maxim _Ubi jus ibi remedium_ — there is no wrong without a remedy.[^44] It may be said that the liability imposed by tort law is deemed as a private penalty for the wrong done because of one’s moral shortcoming.[^45] As such, if no wrong is done, there should be no basis to impose liability under this perspective.
 
@@ -80,7 +80,7 @@ To understand how autonomous vehicles may disrupt tort principles, an inquiry in
 
 Throughout history, humans have been continuously aspiring to make life easier and better.[^56] One way of achieving such aspiration is to make artificial creatures capable of doing our tasks for us. We call these creatures robots.
 
-<v-img src='artificial_intelligence.svg' alt='car'></v-img>
+<v-img src='artificial_intelligence.svg' alt='artificial intelligence'></v-img>
 
 In the year 1961 robots were first employed in the automobile industry.[^57] The UNIMATE robot was used by General Motors in manufacturing cars to perform spot welding and to extract die-castings.[^58] Soon after, they looked beyond creating more cars using robots but to create cars that are robots — fully autonomous cars.[^59] However, mass adoption of robotic technology only began in the early 1980s when Japanese car industry began to use robots on a large scale in their factories thereby decreasing costs and increasing the quality of their products.[^60] Eventually, the industrial robot industry became dominated by car manufacturers. It is therefore natural that several states, organizations, and private companies began to seriously pursue the project of creating autonomous cars, or unmanned ground vehicles (UGV) as they called it.[^61]
 
@@ -114,7 +114,7 @@ Law is a mode of regulating behavior.[^86] By prescribing punishments, imposing 
 
 Game theory is “a set of tools and language for describing and predicting strategic behavior.”[^88] A core concept in this definition is “strategic behavior.”[^89] When two or more persons interact with each other and each person’s decision depends on what that person expects the others will do, there is what we call a strategic behavior.[^90] Because law regulates behavior, game theory becomes a useful tool in providing insights as to how the laws regulate the behavior of people.[^91]
 
-<v-img src='playing_cards.svg' alt='car'></v-img>
+<v-img src='playing_cards.svg' alt='game'></v-img>
 
 In game theory, interactions are modeled into a “game.”[^92] One known model is called the “normal-form game” or “strategic form” of a game.[^93] The normal-form game has three elements: 
 1. the players in the game 
@@ -312,14 +312,14 @@ Thus, this paper has illustrated how game theory might be an insightful tool in 
 In the end, even if we do not know how computers think, we still know how humans react. Consequently, game theory may also be applied to AI actors since they are programmed to act and react like humans. The introduction of AI actors does not change the game, it only changes the players.
 
 [^1]: _See_ An Act to Ordain and Institute the Civil Code of the Philippines [CIVIL CODE], Republic Act No. 386, art. 2176 (1950). (“Whoever by act or omission causes damage to another, there being fault or negligence, is obliged to pay for the damage done. Such fault or negligence, if there is no pre-existing contractual relation between the parties, is called a quasi-delict and is governed by the provisions of this Chapter.”).
-[^2]: The Guardian, Tesla driver dies in first fatal crash while using autopilot mode, available at https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk (last accessed 24 December 2017).
+[^2]: The Guardian, [Tesla driver dies in first fatal crash while using autopilot mode](https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk) (last accessed 24 December 2017).
 [^3]: _Id._
-[^4]: Johana Bhuiyan, Recode, A federal agency says an overreliance on Tesla’s Autopilot contributed to a fatal crash, available at https://www.recode.net/2017/9/12/16294510/fatal-tesla-crash-self-driving-elon-musk-autopilot (last accessed 24 December 2017).
-[^5]: USA Today, Driver killed in Tesla self-driving car crash ignored warnings, NTSB reports, available at https://www.usatoday.com/story/money/cars/2017/06/20/tesla-self-driving-car-crash/411516001/ (last accessed 24 December 2017).
-[^6]: USA Today, U.S. auto-safety regulators: No defect found in Tesla Autopilot, available at https://www.usatoday.com/story/money/cars/2017/01/19/tesla-motors-autopilot-nhtsa-national-highway-traffic-safety-administration/96772420/ (last accessed 24 December 2017).
+[^4]: Johana Bhuiyan, Recode, [A federal agency says an overreliance on Tesla’s Autopilot contributed to a fatal crash](https://www.recode.net/2017/9/12/16294510/fatal-tesla-crash-self-driving-elon-musk-autopilot) (last accessed 24 December 2017).
+[^5]: USA Today, [Driver killed in Tesla self-driving car crash ignored warnings, NTSB reports](https://www.usatoday.com/story/money/cars/2017/06/20/tesla-self-driving-car-crash/411516001/) (last accessed 24 December 2017).
+[^6]: USA Today, [U.S. auto-safety regulators: No defect found in Tesla Autopilot](https://www.usatoday.com/story/money/cars/2017/01/19/tesla-motors-autopilot-nhtsa-national-highway-traffic-safety-administration/96772420/) (last accessed 24 December 2017).
 [^7]: Car automation systems are divided into six levels. A level 2 system means partial automation wherein the car itself “can steer, accelerate, and brake in certain circumstances.” In this level, tactical manoeuvres and scanning for hazards are still performed by the driver. As such, the driver still has to keep his hand on the wheel.
 
-    Car and Driver, Path to Autonomy: Self-Driving Car Levels 0 to 5 Explained, available at https://www.caranddriver.com/features/path-to-autonomy-self-driving-car-levels-0-to-5-explained-feature (last accessed 24 December 2017).
+    Car and Driver, [Path to Autonomy: Self-Driving Car Levels 0 to 5 Explained](https://www.caranddriver.com/features/path-to-autonomy-self-driving-car-levels-0-to-5-explained-feature) (last accessed 24 December 2017).
 [^8]: _See_ infra [Levels of Automation](#levels-of-automation)
 [^9]: Car and Driver, supra note 7.
 [^10]: _See_ infra [Autonomous Vehicles](#autonomous-vehicles).
@@ -394,9 +394,9 @@ In the end, even if we do not know how computers think, we still know how humans
 [^79]: See Car and Driver, supra note 7.
 [^80]: _Id._
 [^81]: _See id._
-[^82]: The Verge, Waymo is first to put fully self-driving cars on US roads without a safety driver, available at https://www.theverge.com/2017/11/7/16615290/waymo-self-driving-safety-driver-chandler-autonomous (last accessed 26 December 2017).
+[^82]: The Verge, [Waymo is first to put fully self-driving cars on US roads without a safety driver](https://www.theverge.com/2017/11/7/16615290/waymo-self-driving-safety-driver-chandler-autonomous) (last accessed 26 December 2017).
 [^83]: _See_ Vladeck, supra note 12, at 27.
-[^84]: _See_ Will Knight, MIT Technology Review, The Dark Secret at the Heart of AI, available at https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/ (last accessed 26 December 2017). (“The system is so complicated that even the engineers who designed it may struggle to isolate the reason for any single action. And you can’t ask it: there is no obvious way to design such a system so that it could always explain why it did what it did.”).
+[^84]: _See_ Will Knight, MIT Technology Review, [The Dark Secret at the Heart of AI](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/) (last accessed 26 December 2017). (“The system is so complicated that even the engineers who designed it may struggle to isolate the reason for any single action. And you can’t ask it: there is no obvious way to design such a system so that it could always explain why it did what it did.”).
 [^85]: PAGALLO, supra note 11.
 [^86]: Lessig, supra note 17.
 [^87]: _See id_.
@@ -420,7 +420,7 @@ In the end, even if we do not know how computers think, we still know how humans
 [^103]: _Id._
 [^104]: _Id._
 [^105]: _Id._ at 12.
-[^106]: Josh Villasenor, Products Liability and Driverless Cars: Issues and Guiding Principles for Legislation, available at https://www.brookings.edu/research/products-liability-and-driverless-cars-issues-and-guiding-principles-for-legislation/ (last accessed 27 December 2017).
+[^106]: Josh Villasenor, [Products Liability and Driverless Cars: Issues and Guiding Principles for Legislation](https://www.brookings.edu/research/products-liability-and-driverless-cars-issues-and-guiding-principles-for-legislation/) (last accessed 27 December 2017).
 [^107]: Such combination is the first and third cells where the owner chooses not to use an autonomous vehicle at all.
 [^108]: _But see_ Abbott, supra note 37, at 43. (“Once a manufacturer establishes that a computer tortfeasor is safer than a person, the negligence test should focus on whether the computer’s act was negligent, rather than whether the computer was negligently designed or marketed…It makes no difference to an accident victim what a computer was ‘thinking,’ only how the computer acted.”).
 [^109]: Under the doctrine of respondeat superior, the master is always unconditionally liable for the acts of the servant within the scope of the employment.

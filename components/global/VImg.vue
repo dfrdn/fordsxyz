@@ -1,6 +1,13 @@
 <template>
   <div class="img">
-    <img :src="imgSrc" :alt="alt" class="w-10/12 lg:w-2/3 mx-auto" />
+    <svg
+      v-if="!imgSrc"
+      class="animate-spin h-5 w-5 fill-current bg-gray-600 m-auto"
+      viewBox="0 0 24 24"
+    >
+      <!-- ... -->
+    </svg>
+    <img :src="imgSrc" :alt="alt" class="w-10/12 lg:w-2/3 m-auto" />
   </div>
 </template>
 

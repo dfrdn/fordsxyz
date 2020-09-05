@@ -14,19 +14,25 @@
       <h2>{{ article.author || 'Daniel Fordan' }}</h2> -->
     </div>
     <div
-      class="container flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10"
+      class="lg:container flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10"
     >
       <div class="m-0 lg:mt-2 max-w-xs">
         <table-of-contents id="toc" :toc="article.toc" class="lg:sticky" />
         <hr class="mt-4 block lg:hidden" />
       </div>
-      <nuxt-content :document="article" class="prose lg:prose-lg xl:prose-xl" />
+      <div class="">
+        <nuxt-content
+          :document="article"
+          class="prose lg:prose-lg xl:prose-xl"
+        />
+      </div>
     </div>
   </article>
 </template>
 
-<script lang>
+<script>
 import Vue from 'vue'
+
 export default Vue.extend({
   async asyncData({ $content, params }) {
     const [article] = await $content('law', params.slug, { deep: true }).fetch()
@@ -39,7 +45,7 @@ export default Vue.extend({
         {
           hid: 'description',
           name: 'description',
-          content: this.article.title,
+          content: this.article.description,
         },
       ],
     }
