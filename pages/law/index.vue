@@ -1,5 +1,5 @@
 <template>
-  <div class="container p-6">
+  <div class="lg:container p-6">
     <article-preview
       v-for="article in articles"
       :key="article.dir"

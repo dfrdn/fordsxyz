@@ -6,7 +6,6 @@
     <main class="flex-grow bg-gray-100 text-gray-900 flex flex-col">
       <Nuxt />
     </main>
-
     <footer>
       <footer-component />
     </footer>
