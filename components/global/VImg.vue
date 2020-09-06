@@ -1,13 +1,18 @@
 <template>
   <div class="img">
     <svg
-      v-if="!imgSrc"
+      v-if="!imageLoaded"
       class="animate-spin h-5 w-5 fill-current bg-gray-600 m-auto"
       viewBox="0 0 24 24"
     >
       <!-- ... -->
     </svg>
-    <img :src="imgSrc" :alt="alt" class="w-10/12 lg:w-2/3 m-auto" />
+    <img
+      :src="imgSrc"
+      :alt="alt"
+      class="w-10/12 lg:w-2/3 m-auto"
+      @load="imageLoaded = true"
+    />
   </div>
 </template>
 
@@ -23,11 +28,16 @@ export default {
       required: true,
     },
   },
+  data() {
+    return {
+      imageLoaded: false,
+    }
+  },
   computed: {
     imgSrc() {
       try {
         const article =
-          this.$parent._data.article ?? this.$parent.$parent.article
+          this.$parent._data.article || this.$parent.$parent.article
         return require(`~/content${article.dir}/img/${this.src}`)
       } catch (error) {
         return null

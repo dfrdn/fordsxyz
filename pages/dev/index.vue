@@ -1,13 +1,15 @@
 <template>
-  <div class="container p-6 flex flex-wrap space-4">
+  <div
+    class="container p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-4"
+  >
     <dev-card
       v-for="devwork in devworks"
       :key="devwork.dir"
       :heading="devwork.heading"
-      :imgurl="`${devwork.dir}/img/${devwork.img}`"
+      :imgurl="toScreenShotURL(devwork.to)"
       :details="devwork.details"
       :link="devwork.to"
-      class="w-full md:w-1/2 lg:w-1/3"
+      class="w-full"
     />
   </div>
 </template>
@@ -19,6 +21,13 @@ export default Vue.extend({
     const devworks = await $content('dev' || 'index', { deep: true }).fetch()
     return { devworks }
   },
+  methods: {
+    toScreenShotURL: (link: string) => {
+      return `https://api.screenshotmachine.com/?key=a7ebc8&url=${encodeURIComponent(
+        link
+      )}&dimension=1920x1080&delay=4000`
+    },
+  },
   head() {
     return {
       title: 'Dev',
@@ -26,7 +35,7 @@ export default Vue.extend({
         {
           hid: 'description',
           name: 'description',
-          content: 'Dev-related posts',
+          content: 'Some of my dev works',
         },
       ],
     }

@@ -1,7 +1,6 @@
 ---
 heading: '[ this and that }.'
-to: 'https://thisandthat.life'
-img: thisandthat.png
+to: 'https://thisandthat.life/'
 details: >
   This website
 
