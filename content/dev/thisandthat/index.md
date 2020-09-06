@@ -1,6 +1,11 @@
 ---
 heading: '[ this and that }.'
-to: 'thisandthat.life'
-details: 'details'
-img: 'thisandthat.jpg'
+to: 'https://thisandthat.life'
+img: thisandthat.png
+details: >
+  This website
+
+  Vue, Nuxt, Tailwind
+
+  Netlify
 ---

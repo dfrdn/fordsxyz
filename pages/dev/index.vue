@@ -1,12 +1,13 @@
 <template>
-  <div class="lg:container p-6">
+  <div class="container p-6 flex flex-wrap space-4">
     <dev-card
       v-for="devwork in devworks"
       :key="devwork.dir"
       :heading="devwork.heading"
-      :img="devwork.img"
+      :imgurl="`${devwork.dir}/img/${devwork.img}`"
       :details="devwork.details"
-      :to="devwork.to"
+      :link="devwork.to"
+      class="w-full md:w-1/2 lg:w-1/3"
     />
   </div>
 </template>

@@ -1,13 +1,23 @@
 <template>
-  <a :href="to" class="bg-white rounded shadow hover:shadow-md">
+  <a
+    :href="link"
+    class="flex flex-col bg-white rounded shadow hover:shadow-lg overflow-hidden transition duration-150 ease-in-out"
+    target="_blank"
+  >
     <div class="object-fill overflow-hidden">
-      <img :src="img" alt="" />
+      <img :src="imgSrc" alt="" />
     </div>
-    <div class="text-xl">
-      <h1>{{ heading }}</h1>
-    </div>
-    <div class="">
-      <p>{{ details }}</p>
+    <div class="p-6">
+      <div class="text-3xl font-semibold">
+        <h1>{{ heading }}</h1>
+      </div>
+      <div class="">
+        <ul class="list-disc list-inside">
+          <li v-for="detail in formattedDetails" :key="detail">
+            {{ detail }}
+          </li>
+        </ul>
+      </div>
     </div>
   </a>
 </template>
@@ -17,7 +27,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   props: {
-    img: {
+    imgurl: {
       type: String,
       required: true,
     },
@@ -29,9 +39,21 @@ export default Vue.extend({
       type: String,
       required: true,
     },
-    to: {
+    link: {
       type: String,
       required: true,
+    },
+  },
+  computed: {
+    imgSrc() {
+      try {
+        return require(`~/content${this.imgurl}`)
+      } catch (error) {
+        return null
+      }
+    },
+    formattedDetails() {
+      return this.details.split('\n').filter((line) => line)
     },
   },
 })
