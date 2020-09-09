@@ -6,5 +6,5 @@ details: >
 
   Vue, Nuxt, Tailwind
 
-  Netlify
+  Netlify, Netlify Functions
 ---
