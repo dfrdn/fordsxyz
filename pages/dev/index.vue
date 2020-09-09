@@ -25,7 +25,7 @@ export default Vue.extend({
     toScreenShotURL: (link: string) => {
       return `https://api.screenshotmachine.com/?key=a7ebc8&url=${encodeURIComponent(
         link
-      )}&dimension=1920x1080&delay=4000`
+      )}&dimension=1920x1080`
     },
   },
   head() {
