@@ -42,7 +42,9 @@ export default Vue.extend({
   },
   async fetch() {
     try {
-      const res = await this.$http.get(`api/getScreenshot?link=${this.link}`)
+      const res = await fetch(
+        `https://thisandthat.life/api/getScreenshot?link=${this.link}`
+      )
       const { message: imgurl } = await res.json()
       this.imgurl = imgurl
     } catch (error) {
