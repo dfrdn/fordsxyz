@@ -22,15 +22,11 @@
   </a>
 </template>
 
-<script lang="ts">
+<script lang>
 import Vue from 'vue'
 
 export default Vue.extend({
   props: {
-    imgurl: {
-      type: String,
-      required: true,
-    },
     heading: {
       type: String,
       required: true,
@@ -43,6 +39,22 @@ export default Vue.extend({
       type: String,
       required: true,
     },
+  },
+  async fetch() {
+    try {
+      const res = await this.$http.get(`/api/getScreenshot?link=${this.link}`)
+      console.log(res)
+      const imgurl = await res.text()
+      console.log(imgurl)
+      this.imgurl = imgurl
+    } catch (error) {
+      console.log(error)
+    }
+  },
+  data() {
+    return {
+      imgurl: '',
+    }
   },
   computed: {
     formattedDetails() {
