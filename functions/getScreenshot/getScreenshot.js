@@ -1,6 +1,7 @@
 const md5 = require('md5')
 
-exports.handler = (event) => {
+// eslint-disable-next-line require-await
+exports.handler = async (event) => {
   const { link } = event.queryStringParameters
   const { SCMACHINE_API_KEY, SCMACHINE_API_SECRET } = process.env
   const hash = md5(`${link}${SCMACHINE_API_SECRET}`)
