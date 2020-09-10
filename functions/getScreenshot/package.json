@@ -1,8 +1,8 @@
 {
-  "name": "token-hider",
+  "name": "get-screenshot",
   "version": "1.0.0",
   "description": "netlify functions:create - how to hide API tokens from your users",
-  "main": "token-hider.js",
+  "main": "getScreenshot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
