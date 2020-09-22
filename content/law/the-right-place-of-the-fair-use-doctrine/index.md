@@ -4,6 +4,7 @@ subtitle: 'An Introduction'
 description: >
   This series challenges the notion of fair use as an affirmative defense. Such treatment not only runs contrary to the language of the law, it is also repugnant to the historical and Constitutional objective of copyright—to promote the diffusion of knowledge for the benefit of the public. To restore the balance, fair use and infringement must be viewed as two sides of the same coin. It is therefore impossible to determine infringement without inquiring into the possibility of fair use.
 author:
+createdAt: 22 September 2020
 tags: []
 ---
 ## Intellectual Property Rights

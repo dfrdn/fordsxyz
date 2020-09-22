@@ -4,6 +4,7 @@ subtitle: 'Comparing Tort Liability Regimes Using Game Theory in the Context of 
 description: >
   When there is a vehicular accident, the driver, if there is fault or negligence on his part, is obliged to pay for the damages caused by his or her act or omission. What if there is no driver, who pays?
 author:
+createdAt: 27 August 2020
 tags: []
 ---
 
