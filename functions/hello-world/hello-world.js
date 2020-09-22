@@ -1,4 +1,5 @@
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
+// eslint-disable-next-line require-await
 exports.handler = async (event) => {
   try {
     const subject = event.queryStringParameters.name || 'World'

@@ -14,7 +14,7 @@
       <h2>{{ article.author || 'Daniel Fordan' }}</h2> -->
     </div>
     <div
-      class="lg:container flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10"
+      class="lg:container flex flex-col justify-center lg:flex-row space-y-4 lg:space-y-0 lg:space-x-10"
     >
       <div class="m-0 lg:mt-2 max-w-xs">
         <table-of-contents id="toc" :toc="article.toc" class="lg:sticky" />
