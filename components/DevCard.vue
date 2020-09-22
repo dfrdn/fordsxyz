@@ -19,7 +19,6 @@
         </ul>
       </div>
     </div>
-    {{ imgurl }}
   </a>
 </template>
 
