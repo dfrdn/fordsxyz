@@ -23,9 +23,6 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || '',
       },
-      { property: 'og:type', content: 'website' },
-
-      { property: 'og:url', content: 'https://thisandthat.life/' },
       {
         property: 'og:image',
         content: 'https://thisandthat.life/winter.png',
@@ -33,10 +30,6 @@ export default {
       {
         property: 'twitter:card',
         content: 'summary_large_image',
-      },
-      {
-        property: 'twitter:url',
-        content: 'https://thisandthat.life/',
       },
       {
         property: 'twitter:image',
