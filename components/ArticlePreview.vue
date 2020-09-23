@@ -7,7 +7,10 @@
       <h1 class="text-3xl font-bold text-gray-800 group-hover:underline">
         {{ title }}
       </h1>
-      <p class="text-gray-500 text-sm">{{ formattedDate }}</p>
+      <h2 v-if="subtitle" class="text-xl italic text-gray-700">
+        {{ subtitle }}
+      </h2>
+      <p class="text-gray-500 text-sm mt-2">{{ formattedDate }}</p>
     </div>
     <div class="space-y-2 mx-8">
       <p v-for="desc in formattedDescription" :key="desc">
@@ -45,6 +48,10 @@ export default Vue.extend({
     title: {
       type: String,
       required: true,
+    },
+    subtitle: {
+      type: String,
+      default: '',
     },
     dateCreated: {
       type: String,

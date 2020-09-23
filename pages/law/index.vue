@@ -3,7 +3,8 @@
     <article-preview
       v-for="article in articles"
       :key="article.dir"
-      :title="`${article.title}`"
+      :title="article.title"
+      :subtitle="article.subtitle"
       :date-created="article.createdAt"
       :description="article.description"
       :to="article.dir"

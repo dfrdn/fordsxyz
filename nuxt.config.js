@@ -23,6 +23,41 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || '',
       },
+      { property: 'og:type', content: 'website' },
+
+      { property: 'og:url', content: 'https://thisandthat.life/' },
+      {
+        property: 'og:title',
+        content: '[ this and that }.',
+      },
+      {
+        property: 'og:description',
+        content: 'dev, law, photog, and everything in between',
+      },
+      {
+        property: 'og:image',
+        content: 'https://thisandthat.life/winter.png',
+      },
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        property: 'twitter:url',
+        content: 'https://thisandthat.life/',
+      },
+      {
+        property: 'twitter:title',
+        content: '[ this and that }.',
+      },
+      {
+        property: 'twitter:description',
+        content: 'dev, law, photog, and everything in between',
+      },
+      {
+        property: 'twitter:image',
+        content: 'https://thisandthat.life/winter.png',
+      },
     ],
     link: [
       {

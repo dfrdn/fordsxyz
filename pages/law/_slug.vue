@@ -7,9 +7,12 @@
       />
     </client-only>
     <div class="text-center mb-6">
-      <h1 class="text-4xl md:text-6xl font-bold">
+      <h1 class="text-3xl md:text-5xl font-bold">
         {{ article.title }}
       </h1>
+      <h2 v-if="article.subtitle" class="text-xl md:text-2xl italic">
+        {{ article.subtitle }}
+      </h2>
       <!-- <h2>{{ article.createdAt }}</h2>
       <h2>{{ article.author || 'Daniel Fordan' }}</h2> -->
     </div>
