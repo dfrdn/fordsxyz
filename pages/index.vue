@@ -1,6 +1,6 @@
 <template>
-  <section class="flex flex-col container m-auto flex-auto">
-    <div class="flex-grow flex flex-col justify-center">
+  <section class="flex flex-col container flex-auto m-auto">
+    <div class="flex-grow flex flex-col justify-center mx-4 md:mx-0">
       <h1 class="text-right">Hi, I'm fords.</h1>
       <h2 class="text-right">
         I'm a
