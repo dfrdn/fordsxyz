@@ -50,6 +50,22 @@ export default Vue.extend({
           name: 'description',
           content: this.article.description,
         },
+        {
+          property: 'og:title',
+          content: this.article.title,
+        },
+        {
+          property: 'og:description',
+          content: this.article.description,
+        },
+        {
+          property: 'twitter:title',
+          content: this.article.title,
+        },
+        {
+          property: 'twitter:description',
+          content: this.article.description,
+        },
       ],
     }
   },
