@@ -51,20 +51,39 @@ export default Vue.extend({
           content: this.article.description,
         },
         {
+          hid: 'og:title',
           property: 'og:title',
           content: this.article.title,
         },
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `https://thisandthat.life${this.article.dir}`,
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          hid: 'og:description',
           property: 'og:description',
           content: this.article.description,
         },
         {
+          hid: 'twitter:title',
           property: 'twitter:title',
           content: this.article.title,
         },
         {
+          hid: 'twitter:description',
           property: 'twitter:description',
           content: this.article.description,
+        },
+        {
+          hid: 'twitter:url',
+          property: 'twitter:url',
+          content: `https://thisandthat.life${this.article.dir}`,
         },
       ],
     }

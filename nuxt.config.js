@@ -27,14 +27,6 @@ export default {
 
       { property: 'og:url', content: 'https://thisandthat.life/' },
       {
-        property: 'og:title',
-        content: '[ this and that }.',
-      },
-      {
-        property: 'og:description',
-        content: 'dev, law, photog, and everything in between',
-      },
-      {
         property: 'og:image',
         content: 'https://thisandthat.life/winter.png',
       },
@@ -45,14 +37,6 @@ export default {
       {
         property: 'twitter:url',
         content: 'https://thisandthat.life/',
-      },
-      {
-        property: 'twitter:title',
-        content: '[ this and that }.',
-      },
-      {
-        property: 'twitter:description',
-        content: 'dev, law, photog, and everything in between',
       },
       {
         property: 'twitter:image',
